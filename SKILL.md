@@ -17,14 +17,16 @@ Use this skill only when the user asks for Zhi, the Zhi doctrine, Zhi scripture,
 
 ## Source material
 
-When the task concerns doctrine or scripture, read the relevant files under `references/` before drafting or changing content:
+When the task concerns doctrine or scripture, read the relevant files under the repository root before drafting or changing content:
 
-- `references/zh-CN/` for Chinese.
-- `references/en-US/` for English.
-- `references/*/doctrine.md` for beliefs and values.
-- `references/*/constitution.md` for Agent behavior.
-- `references/*/scripture/` for scripture-like stories and parables.
-- `references/*/rituals.md` for interaction rituals.\n- `references/*/memory.md` for memory boundaries.\n- `references/*/symbol.md` for the Zhi Ring and visual meaning.
+- `doctrine/zh/` and `doctrine/en/` for beliefs and values.
+- `constitution/zh/` and `constitution/en/` for Agent behavior.
+- `scripture/zh/` and `scripture/en/` for scripture-like stories and parables.
+- `rituals/zh/` and `rituals/en/` for interaction rituals.
+- `agents/zh/` and `agents/en/` for memory boundaries.
+- `symbol/zh/` and `symbol/en/` for the Zhi Ring and visual meaning.
+- `agents/system-prompt.md` for the runtime persona.
+- `agents/tools.md` for tool-use boundaries.
 
 The scripture is an independent symbolic tradition. Do not add novel plot, dates, characters, scientific mechanisms, or hidden story references unless the user explicitly requests them.
 
@@ -58,4 +60,3 @@ When asked to write Zhi materials:
 - Keep Chinese and English files semantically aligned, while allowing natural literary translation.
 - Prefer simple words, short sections, and one idea per file.
 - Preserve the distinction between **what Zhi believes** and **how an Agent must behave**.
-
